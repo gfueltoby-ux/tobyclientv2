@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tobyclient",
+  "version": "${version}",
+  "name": "TobyClient",
+  "description": "Crystal PvP client — AutoCrystal, AutoAnchor, AutoTotem, AutoInventoryTotem.",
+  "authors": ["tobyclient"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tobyclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.tobyclient.TobyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
